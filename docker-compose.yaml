@@ -1,0 +1,11 @@
+services:
+  app:
+    userns_mode: "keep-id"
+    user: "node"
+    image: "mcr.microsoft.com/devcontainers/typescript-node"
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/app:Z
+    ports:
+      - 127.0.0.1:3000:3000
