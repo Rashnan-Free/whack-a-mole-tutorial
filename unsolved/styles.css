@@ -20,13 +20,8 @@ body {
     background-size: contain;
 
     /* add your position relative to position the hammer */
-    position: relative;
 
     /* add your flexbox styles to arrange the holes */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
 .hole {
@@ -40,9 +35,6 @@ body {
     background-position: bottom center;
 
     /* use flexbox here to center the mole inside the hole */
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
 }
 
 .hidden {
